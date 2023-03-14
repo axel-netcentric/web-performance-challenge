@@ -1,3 +1,9 @@
+.cookieLayer {
+  position: sticky;
+  top: 0;
+  z-index: 9;
+}
+
 .cookieLayer__base {
   position: absolute;
   top: 0;
