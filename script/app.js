@@ -48,12 +48,9 @@ const cookieLayerInit = () => {
 };
 
 const initApp = () => {
-  const lazyLoadInstance = new LazyLoad();
-
   dynamicContent();
   setTimeout(() => console.log('Hello World!'), 3000);
   cookieLayerInit();
-  lazyLoadInstance.update();
 };
 
 initApp();
