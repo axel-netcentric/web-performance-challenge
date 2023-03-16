@@ -55,7 +55,6 @@ const cookieLayerInit = () => {
 
 const initApp = () => {
   dynamicContent();
-  setTimeout(() => console.log('Hello World!'), 3000);
   cookieLayerInit();
 };
 
