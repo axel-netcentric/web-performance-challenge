@@ -18,18 +18,13 @@
       setTimeout(() => adSpace.innerHTML = gif, 3000);
     };
 
-    // async CSS
-    function loadMobileCSS() {
-      document.head.insertAdjacentHTML('beforeend', `<link rel="stylesheet" type="text/css" href="styles/mobile.css">`);
-    };
-
     window.addEventListener('load', () => {
       initAd();
-      loadMobileCSS();
     });
   </script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
   <link rel="stylesheet" href="styles/index.css" />
+  <link rel="stylesheet" type="text/css" href="styles/mobile.css" media="screen and (max-width: 750px)">
   <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
   <!-- async CSS -->
