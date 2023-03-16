@@ -17,6 +17,17 @@ body {
   max-width: 1200px;
 }
 
+.main__newsMarquee {
+  width: 100%;
+  min-height: 30px;
+}
+
+.main__newsMarquee--loaded {
+  line-height: 30px;
+  background-color: darkred;
+  color: red;
+}
+
 .main__hero {
   height: 400px;
   display: grid;
