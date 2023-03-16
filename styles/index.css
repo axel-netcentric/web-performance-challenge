@@ -1,6 +1,9 @@
 /* bootstrap */
 @import url(bootstrap-subset.css);
 
+/* reset */
+@import url(reset.css);
+
 /* generics */
 @import url(generics.css);
 
