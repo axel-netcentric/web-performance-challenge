@@ -11,7 +11,7 @@
   right: 0;
   color: var(--color-white);
   background-color: var(--background-color);
-  padding: 100px;
+  padding: 30px;
   font-family: 'Architects Daughter', serif;
   z-index: 2;
   box-shadow: 0 5px 3px -2px #e4e4e4
@@ -28,6 +28,29 @@
 
 .cookieLayer__text {
   margin-bottom: 20px;
+}
+
+.cookieLayer__buttonContainer {
+  display: flex;
+}
+
+.cookieLayer__buttonContainer :last-child {
+  margin-left: auto;
+}
+
+.cookieLayer__button--secondary {
+  background: none!important;
+  border: none;
+  padding: 0!important;
+  color: var(--color-white);
+}
+
+.cookieLayer__base:not(.cookieLayer__base--readMore) .cookieLayer__text--readMore {
+  display: none;
+}
+
+.cookieLayer__base--readMore .cookieLayer__button--readMore {
+  display: none;
 }
 
 .cookieLayer__disclaimer {
