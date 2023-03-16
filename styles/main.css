@@ -11,6 +11,10 @@ body {
   justify-content: space-around;
 }
 
+.main__advertisingLoader {
+  align-self: center;
+}
+
 .main__content {
   padding: 30px;
   margin: auto;
