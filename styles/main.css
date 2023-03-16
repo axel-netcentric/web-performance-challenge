@@ -5,6 +5,8 @@ body {
 .main__advertising {
   background-color: var(--color-light-gray);
   padding: 30px 100px;
+  /* expect a banner with AR 16:9, not stretcher than 350px */
+  min-height: calc(60px + (min(350px, 100vw - 200px) / (16 / 9)));
   display: flex;
   justify-content: space-around;
 }
