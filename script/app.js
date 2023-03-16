@@ -49,7 +49,9 @@ const cookieLayerInit = () => {
               compiledTemplate.replace(new RegExp(`\{\{\\s*${dataKey}\\s*\}\}`), data[dataKey]),
           template,
           );
-  document.querySelector('.cookieLayer__base').innerHTML = compiledTemplate;
+  let cookieLayer = document.querySelector('.cookieLayer__base');
+  cookieLayer.innerHTML = compiledTemplate;
+  cookieLayer.classList.add('cookieLayer__base--init');
   document.body.classList.add('no-scroll');
 };
 

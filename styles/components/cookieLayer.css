@@ -5,6 +5,7 @@
 }
 
 .cookieLayer__base {
+  display: none;
   position: absolute;
   top: 0;
   left: 0;
@@ -17,8 +18,8 @@
   box-shadow: 0 5px 3px -2px #e4e4e4
 }
 
-.cookieLayer__base--hidden {
-  display: none;
+.cookieLayer__base--init:not(.cookieLayer__base--hidden) {
+  display: initial;
 }
 
 .cookieLayer__title {
